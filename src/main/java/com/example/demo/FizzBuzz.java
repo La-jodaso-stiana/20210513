@@ -7,11 +7,11 @@ public class FizzBuzz {
             System.out.println(Integer.toString(i) + " " + a(i));
         }
     }
-	
-	String a(int value) {
-		if (value == 0) {
-			return "";
-		}
-		return (value % 3 == 0 ? "Fizz" : "") + (value % 5 == 0 ? "Buzz" : "");
-	}
+
+    String a(int value) {
+        if (value == 0) {
+            return "";
+        }
+        return (value % 3 == 0 ? "Fizz" : "") + (value % 5 == 0 ? "Buzz" : "");
+    }
 }
