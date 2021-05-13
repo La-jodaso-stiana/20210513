@@ -2,11 +2,11 @@ package com.example.demo;
 
 public class FizzBuzz {
 
-	public void hoge() {
-	    for (int i = -100; i < 100; i++) {
-			System.out.println(Integer.toString(i) + " " + a(i));
-		}
-	}
+    public void hoge() {
+        for (int i = -100; i < 100; i++) {
+            System.out.println(Integer.toString(i) + " " + a(i));
+        }
+    }
 	
 	String a(int value) {
 		if (value == 0) {
