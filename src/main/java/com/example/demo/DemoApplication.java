@@ -10,6 +10,6 @@ public class DemoApplication {
 	    new FizzBuzz().hoge();
 		
 	    SpringApplication.run(DemoApplication.class, args);
-	}
+    }
 
 }
